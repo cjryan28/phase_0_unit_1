@@ -1,5 +1,9 @@
 ## 8. [Comparing Favorite Websites](8_technical_blog/readme.md) Reflection
 
-Blog url: <!-- Blog URL here (remove comment)  -->
+Blog url: http://cjryan28.github.io/unit1_projects/week1_technical_blog.html
 
 Reflect on the process of researching and writing a blog post. It doesn't have to be long. Did you enjoy this? Did you get comments or views? Did you find the blog helpful to your learning? Did you find it cumbersome? Which parts did you feel best about and which did you feel less certain about?
+
+This has been my favorite challenge so far. My solo challenge was a bit of a mess, so I was determined to put more time and effort into this blog. After a few hours of learning more about CSS and HTML, I started back into it. I found that when I'm committed, my expectations for the final product are greater than when I'm fooling around in Sublime. I think after this, I want to work more on having a process. Maybe first draw out my webpage, include dimensions and spacing, so that I don't have to waste time tinkering with pixels before its completed. I don't think my post is completely research oriented, I think it's more anecdotally based. It was easy for me to talk about my experiences on these websites, because they're my favorite! I felt a little uneasy, because these websites have applications, and I spend most time on my phone than my computer. But, in the end, the websites and the applications share features, so it wasn't too tough to describe. 
+
+I'm working on extended time, so I'm trying to find a balance between something I am proud of and something that completes the assignment. It's funny, because I could spend so much time on this, but at the end of the day, I need to move forward, because the next weeks assignments have something greater for me to learn. 
