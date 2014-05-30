@@ -21,7 +21,7 @@ Saves changes by creating a new snapshot of the project changes and referencing 
 The goal is to sync a remote repository with a local repository. While it doesn't change local files, it downloads data that would allow it to.
 
 #### logs
-Shows recent changes, including the commit messages and timestamps.
+Shows all changes, including the commit messages and timestamps.
 
 #### merge
 The command will take whichever branch you describe in the command and merge it to the branch that is currently activated, or the most recent branch that has been checked out.
