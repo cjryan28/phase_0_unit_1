@@ -3,48 +3,51 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+Adds a file to a bucket that makes it commit-able. A file must be added before it can be committed. 
 
 #### branch
-<!-- Your defnition here -->
+Creates a new reference to the commit. 
 
 #### checkout
-<!-- Your defnition here -->
+Switches to whatever branch is specified in the checkout command, make that branch current. 
 
 #### clone
-<!-- Your defnition here -->
+Creates a new local repository by copying one from GitHub
 
 #### commit
-<!-- Your defnition here -->
+Saves changes by creating a new snapshot of the project changes and referencing them to the parent file.
 
 #### fetch
-<!-- Your defnition here -->
+The goal is to sync a remote repository with a local repository. While it doesn't change local files, it downloads data taht would allow it to.
 
 #### log
 <!-- Your defnition here -->
 
 #### merge
-<!-- Your defnition here -->
+The command will take whichever branch you describe in the command and merge it to the branch that is currently activated, or the most recent branch that has been checked out.
 
 #### pull
-<!-- Your defnition here -->
+Combines fetch and merge in order to update local repositories to match remote ones.
 
 #### push
-<!-- Your defnition here -->
+Updates remote repository with changes made locally. Additionally it updates the pointer for the remote repository on the local file so that the remote and local repositories are completely in sync.
 
 #### reset
-<!-- Your defnition here -->
+Changes commit history. Git reset moves the pointer from the current commit to a previous commit. By doing so, it effectively deletes the current commit. 
 
 #### rm
-<!-- Your defnition here -->
+Removes files from the index. Deletes all files
 
 #### status
-
+Shows all the paths that have differences between the index file and the pointer.
 
 ## Release 4: Git Workflow
 
-- Push files to a remote repository
-- Fetch changes
-- Commit locally
+git add file name
+git commit
+git push
+git pull
 
 ## Release 5: Reflection
+
+Git commands were difficult for me to understand first. When I think about what's happening, version tracking, I think of files that are saved on top of files, almost like the save as button for documents. It wasn't until I went through the last resource, Learn Git Branching, that I felt I was starting to understand what was happening. The visualizations were way helpful in understanding what was being referenced and how to update references. I went through the Learn Git Branching tutorials for the words we had to define, and I think I understand what's going on a lot more now.
