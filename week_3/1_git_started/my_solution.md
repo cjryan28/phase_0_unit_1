@@ -48,10 +48,6 @@ git commit
 git push
 git pull
 
-## Release 5: Reflection
-
-
-Git commands were difficult for me to understand first. When I think about what's happening, version tracking, I think of files that are saved on top of files, almost like the save as button for documents. It wasn't until I went through the last resource, Learn Git Branching, that I felt I was starting to understand what was happening. The visualizations were way helpful in understanding what was being referenced and how to update references. I went through the Learn Git Branching tutorials for the words we had to define, and I think I understand what's going on a lot more now.
 
 ## Release 5: Errors you encountered
 1. Error
@@ -60,3 +56,4 @@ Git commands were difficult for me to understand first. When I think about what'
 
 ## Release 6: Reflection
 
+Git commands were difficult for me to understand first. When I think about what's happening, version tracking, I think of files that are saved on top of files, almost like the save as button for documents. It wasn't until I went through the last resource, Learn Git Branching, that I felt I was starting to understand what was happening. The visualizations were way helpful in understanding what was being referenced and how to update references. I went through the Learn Git Branching tutorials for the words we had to define, and I think I understand what's going on a lot more now.
