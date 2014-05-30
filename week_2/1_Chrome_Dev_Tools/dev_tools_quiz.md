@@ -31,7 +31,7 @@ http://i.minus.com/iGP160WOI1rSN.png
   * Tweak the height of the side bar that contains the logo.  Shrink it down to 85px.
   * Roll over the navigation links.  When you hover over them, they dissapear.  Let's change the hover color to black instead.
   * Now take a screenshot of your new (and maybe not so improved) design.  It should match this screenshot: http://postimg.org/image/5ak1jkpl5/
-  * Upload your own image to the web using an image hosting service.  It should match the image above. The last nav link in the image above is black because the mouse was hovering there when the screenshot was taken. Do the same, and don't take a screenshot of your whole desktop, just the browser window. (This is part of the challenge.)
+  * Upload your own image to the imgs directory in the `1_Chrome_Dev_Tools` directory.  It should match the image above. The last nav link in the image above is black because the mouse was hovering there when the screenshot was taken. Do the same, and don't take a screenshot of your whole desktop, just the browser window. (This is part of the challenge.)
 
   http://min.us/i/RcrUmfmKZAw4
 
@@ -46,6 +46,7 @@ http://i.minus.com/iGP160WOI1rSN.png
 
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
+
   One would look to the network tab. After sorting the size in descending order, find the first image. After clicking on it, click on the preview tab. 
 
   http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png
@@ -54,3 +55,6 @@ http://i.minus.com/iGP160WOI1rSN.png
 
 
   The biggest way to optimize the site would be optimizing images or leveraging browsesr caching. Optimizing images, by compressing them, would reduce size by 885.9KB (39% reduction). 
+
+* Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
+

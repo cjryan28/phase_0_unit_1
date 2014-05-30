@@ -3,6 +3,7 @@
 
 
 
+
 // Pseudocode
 // 1. Declare secret number as a number
 // 2. Define secret number as 7
@@ -15,6 +16,7 @@
 // 9. Put Mary in the third position of members array
 
 
+
 // __________________________________________
 // Write your code below.
 
@@ -24,6 +26,7 @@ var allowedIn = false;
 var members = []
 members[0] = "John"
 members[3] = "Mary"
+
 
 
 
@@ -49,7 +52,7 @@ members[3] = "Mary"
 // It seemed like we used Ruby as a frame of reference often, which helped our productivity.
 
 // __________________________________________
-// Driver Test Code:  Do not alter code below this line.
+// Test Code:  Do not alter code below this line.
 
 function assert(test, message, test_number) {
   if (!test) {
