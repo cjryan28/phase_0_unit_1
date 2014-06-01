@@ -17,22 +17,33 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
+var adam = {}
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = {}
+terah.children.carson = {}
+terah.children.carson.name = "Carson";
+terah.children.carter = {}
+terah.children.carter.name = "Carter";
+terah.children.colton = {}
+terah.children.colton.name = "Colton";
+adam.children = terah.children;
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
-// 
-// 
-// 
-// 
-// 
-
+// I know there's a better way to write the code for Terah's children. I was having difficulties with the syntax though.
+// Once Tarah's object was printed from the console.log command, it became very clear how my code
+// could be written better. Objects are still a new concept to me, and I think I should invest some time in Code Academy
+// so that Javascript becomes more understandable. It seems like a very useful language, especially for user generated content based
+// sites. For the challenge, I read Release 1 instructions and transaled it into code right away. I think that I was supposed
+// to incorporate pseudocode, but I'm still wrapping my head around the idea of having something gap the instructions and my code.
+// I think oftentimes, I think about the code to implement instructions right away, and I don't think about the general task. I think when
+// I become more proficient and can solve problems multiple ways with code, then pseudocoding will become very important for me. 
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
