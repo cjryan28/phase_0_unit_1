@@ -108,3 +108,8 @@ this.attackXY(56, 44);
 
 // Reflection:
 // Write your reflection here.
+//The lesson was interesting. It was pretty easy for the most part. Sometimes, though
+//I found myself stuck. And when I was stuck, I was really stuck. This happened twice.
+//I feel like this happened to me, because I wasn't sure of the platform or the methods I could use.
+//I wouldn't understand all the tools at my disposal. However, once I figured out what to do,
+//it made a lot of sense to me, and it seemed foolish that I didn't understand right away.
