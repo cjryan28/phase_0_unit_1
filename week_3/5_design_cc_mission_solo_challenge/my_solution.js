@@ -39,7 +39,8 @@
 var ferris = {
 	name: "Ferris",
 	job: "student",
-	age: 18
+	age: 18,
+	location: [0,0]
 }
 
 var mom = {
@@ -50,7 +51,8 @@ var mom = {
 
 var dean = {
 	name: "Dean",
-	age: 46
+	age: 46,
+	location: [0,4]
 }
 
 function moveUp() {
@@ -67,18 +69,10 @@ function moveDown() {
 }
 
 
-
-setInterval(function(){alert('Hello')},3000);"
-
-this.moveXY();
-this.stop();
+this.move() //whateverdirection
+this.halt();
 this.crouch();
 this.stand();
-this.moveXY();
-
-
-// Refactored Code
-
 
 
 
@@ -86,10 +80,21 @@ this.moveXY();
 
 // Reflection
 // 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+// At first, I thought this challenge was going to be easy. I thought
+// that code combat looked simple, had a few commands, and would be replicatable.
+// I made my objects and method names easy enough. But then I realized that these objects
+// need to move, which means they need to be on some sort of position or location. Then when
+// they move they need to be told which way to move on that position. On top of this, some characters
+// need to move constantly, but be on some sort of second delay. Eventually, these characters will run
+// out of space, need to turn around and move the other way. Finally, based on the location of these
+// never stopping characters and Ferris, I would need to calculate with each move of either Ferris or the 
+// other characters- probably the other characters, if Ferris was seen or not.
+
+// Now I'm realizing that what I've written above is probably more like pseudocode than what I wrote for
+// the pseudocode section. Overall, at least I'm starting to understand pseudocode. This challenge was especially
+// difficult with the character placement. I know what I want to do, but I don't think I know how to do it.
+// I researched for a while, but ultimately settled for browsing other class mates challenges, which marked
+// the end of the challenge being solo. 
+
+
+
